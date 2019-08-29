@@ -1,0 +1,154 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+.wrap{
+	width: 1000px;
+	margin: 0 auto;
+}
+.header{
+	background:  #424242;
+	color: #ffd366;
+}
+.header input{
+	border: 2px solid #ffd366;
+}
+.btn{
+	width: 117px;
+	height: 117px;
+	border-radius: 100px; 
+	background: #ffd366;
+	font-size: 28px;
+}
+.btn:hover{
+	cursor: pointer;
+	color: white;
+}
+.content{
+	background: #f5f5f5;
+}
+.footer{
+	background: #ffd366;
+}
+.footer img{
+	width: 70px;
+	height: 70px;
+	padding: 20px;
+	filter: drop-shadow(430px 0 0  #424242);
+}
+.header li{
+	float: left;
+	margin: 50px 30px;
+}
+.header ul{
+	margin-left: 180px;
+}
+.header .middle{
+	padding-left: 30px;
+	padding-top: 10px;
+	line-height: 1.5;
+}
+.header .middle input{
+	border-radius: 5px; 
+	padding: 2px 5px;
+}
+.clearfix{
+	clear: both;
+}
+.content p{
+	text-align: center;
+	padding-top: 40px;
+	padding-bottom: 30px;
+	color: #6b6b6b;
+	font-size: 25px;
+}
+.content .list span{
+	margin-left: 50px;
+	margin-right: 10px;
+	font-size: 16px;
+}
+.content .list li{
+	text-align: left;
+	font-size: 23px;
+	background: #fff;
+	color: #6b6b6b;
+	margin: 0 auto 20px auto;
+	padding: 20px 10px;
+	width: 700px;
+}
+.content .list{
+	padding-bottom: 30px;
+}
+.content .list a{
+	padding-left: 60px;
+	text-decoration: none;
+	color: black;
+}
+.content .list div{
+	float: left;
+	width: 100px;
+	padding-left: 10px;
+}
+.content .blue{
+	border-left: 7px solid #32bbf9;
+}
+.content .green{
+	border-left: 7px solid #87d740;
+}
+.content .orange{
+	border-left: 7px solid #ff992f;
+}
+.content .red{
+	border-left: 7px solid #ff5511;
+}
+.content .redder{
+	border-left: 7px solid #ff3333;
+}
+.content .reddest{
+	border-left: 7px solid #ff0000;
+}
